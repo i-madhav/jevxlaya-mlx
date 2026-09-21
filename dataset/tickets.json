@@ -1,0 +1,152 @@
+[
+  {
+    "id": "t001",
+    "message": "My invoice was charged twice this month and I am extremely frustrated, I want my money back NOW or I am switching providers.",
+    "labels": {"intent": "refund", "is_urgent": true, "frustration": 3, "refund_requested": true, "churn_risk": true}
+  },
+  {
+    "id": "t002",
+    "message": "Hey team, quick question - does the Pro plan include SSO, or do I need Enterprise for that?",
+    "labels": {"intent": "information", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t003",
+    "message": "Our production API integration has been returning 500 errors for the last 20 minutes and our checkout flow is completely down. Please help ASAP.",
+    "labels": {"intent": "technical_help", "is_urgent": true, "frustration": 2, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t004",
+    "message": "I'd like to downgrade from the annual plan to monthly starting next cycle, please let me know the steps.",
+    "labels": {"intent": "cancellation", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t005",
+    "message": "This is the third time this month your app has logged me out mid-work and I've lost data. I'm done, cancel my subscription.",
+    "labels": {"intent": "cancellation", "is_urgent": true, "frustration": 3, "refund_requested": false, "churn_risk": true}
+  },
+  {
+    "id": "t006",
+    "message": "Can you explain why my invoice this month is $40 higher than usual? I don't recall changing my plan.",
+    "labels": {"intent": "billing_question", "is_urgent": false, "frustration": 1, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t007",
+    "message": "The CSV export button just spins forever and never downloads anything on Chrome and Safari. Any known issues?",
+    "labels": {"intent": "technical_help", "is_urgent": false, "frustration": 1, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t008",
+    "message": "I was billed for a plan I cancelled two weeks ago. This needs to be refunded immediately, this is unacceptable.",
+    "labels": {"intent": "refund", "is_urgent": true, "frustration": 3, "refund_requested": true, "churn_risk": true}
+  },
+  {
+    "id": "t009",
+    "message": "What's the difference between the Starter and Growth tiers in terms of API rate limits?",
+    "labels": {"intent": "information", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t010",
+    "message": "We're evaluating a switch to a competitor because your uptime has been unreliable lately. Is there anything you can do to keep us?",
+    "labels": {"intent": "cancellation", "is_urgent": true, "frustration": 2, "refund_requested": false, "churn_risk": true}
+  },
+  {
+    "id": "t011",
+    "message": "Small thing - the dark mode toggle in settings doesn't persist after a page refresh. Not urgent, just flagging it.",
+    "labels": {"intent": "technical_help", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t012",
+    "message": "Please cancel my account effective immediately and refund the unused portion of this month, I no longer need the service.",
+    "labels": {"intent": "cancellation", "is_urgent": true, "frustration": 1, "refund_requested": true, "churn_risk": true}
+  },
+  {
+    "id": "t013",
+    "message": "Do you offer a student or nonprofit discount on any of your plans?",
+    "labels": {"intent": "billing_question", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t014",
+    "message": "URGENT: our webhook deliveries stopped completely at 9am and we are missing orders. We need this fixed within the hour or we will lose thousands of dollars.",
+    "labels": {"intent": "technical_help", "is_urgent": true, "frustration": 3, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t015",
+    "message": "Just wanted to say the new dashboard redesign looks great, nice work team.",
+    "labels": {"intent": "other", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t016",
+    "message": "I accidentally purchased two seats instead of one, can you refund the extra seat?",
+    "labels": {"intent": "refund", "is_urgent": false, "frustration": 0, "refund_requested": true, "churn_risk": false}
+  },
+  {
+    "id": "t017",
+    "message": "How do I reset my two-factor authentication if I lost access to my old phone?",
+    "labels": {"intent": "technical_help", "is_urgent": true, "frustration": 1, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t018",
+    "message": "Your support team has ignored my last three emails about a billing error. I am beyond frustrated and considering legal action if this isn't resolved today.",
+    "labels": {"intent": "billing_question", "is_urgent": true, "frustration": 3, "refund_requested": false, "churn_risk": true}
+  },
+  {
+    "id": "t019",
+    "message": "Is it possible to pay annually via wire transfer instead of credit card for our enterprise contract?",
+    "labels": {"intent": "billing_question", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t020",
+    "message": "The mobile app crashes every time I try to upload a photo larger than 5MB. Happens on both iOS and Android.",
+    "labels": {"intent": "technical_help", "is_urgent": false, "frustration": 1, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t021",
+    "message": "I want a full refund for the last three months, your service has been down more than it's been up and I'm switching to a competitor next week.",
+    "labels": {"intent": "refund", "is_urgent": true, "frustration": 3, "refund_requested": true, "churn_risk": true}
+  },
+  {
+    "id": "t022",
+    "message": "Could you point me to documentation on how to set up single sign-on with Okta?",
+    "labels": {"intent": "information", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t023",
+    "message": "We'd like to pause our subscription for two months over the holidays rather than cancel outright, is that an option?",
+    "labels": {"intent": "cancellation", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t024",
+    "message": "Getting a 'payment method declined' error even though my card has plenty of available credit. Tried twice already.",
+    "labels": {"intent": "billing_question", "is_urgent": true, "frustration": 2, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t025",
+    "message": "Not a complaint, just curious - do you have a public roadmap or changelog I can follow?",
+    "labels": {"intent": "information", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t026",
+    "message": "This is absolutely ridiculous, the export I ran an hour ago deleted half my data instead of exporting it. I need this fixed right now and I want compensation.",
+    "labels": {"intent": "technical_help", "is_urgent": true, "frustration": 3, "refund_requested": true, "churn_risk": true}
+  },
+  {
+    "id": "t027",
+    "message": "Can someone confirm whether the API supports pagination on the /orders endpoint?",
+    "labels": {"intent": "information", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t028",
+    "message": "I was double-charged $299 on my card this morning, please look into this when you get a chance, no huge rush.",
+    "labels": {"intent": "refund", "is_urgent": false, "frustration": 1, "refund_requested": true, "churn_risk": false}
+  },
+  {
+    "id": "t029",
+    "message": "We're closing down the company at the end of the quarter and need to cancel all seats on our team plan.",
+    "labels": {"intent": "cancellation", "is_urgent": false, "frustration": 0, "refund_requested": false, "churn_risk": false}
+  },
+  {
+    "id": "t030",
+    "message": "None of the notification emails have been arriving for the past week, checked spam already, nothing there either.",
+    "labels": {"intent": "technical_help", "is_urgent": false, "frustration": 1, "refund_requested": false, "churn_risk": false}
+  }
+]
